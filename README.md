@@ -15,6 +15,7 @@ Before running the scripts, ensure the following:
   - `pynput`
   - `smtplib` (included by default in Python)
 - Access to an email account with SMTP enabled (e.g., Zoho Mail, as Gmail no longer supports SMTP for standard apps).
+- *NOTE* the `keylogger.py` code uses zoho SMTP and one is encouraged to tailor it to their needs.
 
 ## Installation
 1. Clone this repository:
