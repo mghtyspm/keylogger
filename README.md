@@ -60,7 +60,7 @@ my_keylogger.start()
   - App-specific passwords are used if required (e.g., for Gmail).
 
 ## Disclaimer
-The creators of this project are not responsible for any misuse. Always adhere to ethical practices and obtain proper consent before using such tools.
+The creator of this project are not responsible for any misuse. Always adhere to ethical practices and obtain proper consent before using such tools.
 
 ---
 
